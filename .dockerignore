@@ -1,0 +1,20 @@
+# Keep the build context to what the Dockerfile actually COPYs:
+# pipeline_service/, configuration.yaml, docker/.
+.git
+.gitignore
+tests
+generated_outputs
+results
+results.json
+logs
+
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.egg-info
+.venv
+node_modules
+**/node_modules
+
+.idea
+.vscode
